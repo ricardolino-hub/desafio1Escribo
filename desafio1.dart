@@ -13,6 +13,7 @@ int sum(int n){
 }
 
 void main() {
+  print('Digite um número inteiro positivo: ');
   String? numeroString = stdin.readLineSync();
   if (numeroString != null) {
     if (int.tryParse(numeroString) != null) {
